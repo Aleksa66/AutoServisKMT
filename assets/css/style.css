@@ -7,9 +7,11 @@
 *{
     margin:0px;
     padding:0px;
-    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: 'Fjalla One', sans-serif;
     font-size:18px;
     list-style-type: none;
+    scroll-behavior: smooth;
 }
 a{
     text-decoration: none;
@@ -55,6 +57,11 @@ h2::after {
 .card-footer a{
     color:var(--plava);
     font-size:16px;
+}
+.hover-aj-:hover{
+    background-color: var(--crvena);
+    text-decoration: none;
+    transition:1s;
 }
 .aj-size-h5{
     font-size:19px !important;
@@ -114,4 +121,8 @@ mark{
 }
 textarea{
     resize: none;
+}
+.card,.figure img{
+    border:1px solid var(--crvena);
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 30%);
 }

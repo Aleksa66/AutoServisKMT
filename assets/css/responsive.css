@@ -40,6 +40,12 @@
     #about .container .row img{
         margin-left:15px;
     }
+    .aj-padding{
+        padding-bottom:78px !important;
+    }
+    .margin-left-aj-{
+        margin-left:10px;
+    }
     header .navbar-brand,ul li a{
         font-size:17px;
     }
